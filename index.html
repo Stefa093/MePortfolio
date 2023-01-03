@@ -1,0 +1,173 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+    <link rel="stylesheet" href="./styles.css">
+    <title>Estefania Salazar Portfolio</title>
+</head>
+<body>
+    <!-- ANIMATED BACKGROUND -->
+        <div class="firefly"></div>
+        <div class="firefly"></div>
+        <div class="firefly"></div>
+        <div class="firefly"></div>
+        <div class="firefly"></div>
+        <div class="firefly"></div>
+        <div class="firefly"></div>
+        <div class="firefly"></div>
+        <div class="firefly"></div>
+        <div class="firefly"></div>
+        <div class="firefly"></div>
+        <div class="firefly"></div>
+        <div class="firefly"></div>
+        <div class="firefly"></div>
+        <div class="firefly"></div> 
+    <!-- HEADER -->
+    <header class="header scroll-header">
+        <nav class="navbar">       
+            <logo class="nav-logo">
+                <img class="img-logo" src="./images/ESS.gif" alt="logo">
+            </logo>
+            <ul class="nav-menu" id="nav-menu">
+                <a id="nav-close" href="#" class="nav-close">&#88;</a>
+                <li><a class="nlink" href="#home">Home</a></li>
+                <li><a class="nlink" href="#about">About me</a></li>
+                <li><a class="nlink" href="#ability">Abilities</a></li>
+                <li><a class="nlink" href="#portfolio">Portfolio</a></li>
+                <li><a class="nlink" href="#contact">Contact</a></li>
+            </ul>    
+                <span id="darkToggle" class="darkToggle">🌒</span>
+                <span class="nav-tgl" id="nav-tgl">&#9776 </span>
+            </nav>
+    </header>
+    <main>
+        <!-- HOME AND ABOUT -->
+        <section class="home" id="home">
+            <h1>Hi! My name is Estefania Salazar and I'm a Full-Stack Web Developer</h1>
+        </section>
+        <section class="about" id="about">
+            <photo>
+                <img src="./images/IMG_3106.JPG" alt="me">
+            </photo>
+            <div>
+                <h2>About me</h2>
+                <p>I am a Full-Stack developer. I specialize in HTML, CSS, JavaScript, React.js, Node.js and Postgres SQL. I seek continuous improvement to provide more value to an organization. My work style is achievement oriented, high productivity, and problem solving with a learning spirit.
+                    I have found a great passion for web development and the implementation of applications that seek to meet social needs. I am looking for challenging opportunities that allow me to broaden my skills, work in a team, and implement my knowledge for the common good.</p>
+            </div>
+            <i class='bx bx-envelope' ></i>
+            <a href="#contact">Contact me</a>
+        </section>
+        <!-- ABOUT ME -->
+        <section class="ability" id="ability">
+            <div>
+                <h2>My Skills</h2>
+            </div>
+            <p><i class='bx bxl-javascript'></i> JavaScript</p>
+            <p><i class='bx bxl-react' ></i> React.js</p>
+            <p><i class='bx bxl-nodejs' ></i> Node.js</p>
+            <p><i class='bx bxl-postgresql' ></i> Postgresql</p>
+            <p><i class='bx bxl-html5' ></i> HTML</p>
+            <p><i class='bx bxl-css3' ></i> CSS</p>
+        </section>
+        <!-- MY WORK-- PORTFOLIO -->
+        <section class="portfolio" id="portfolio">
+            <div>
+                <h2>My Work</h2>
+            </div>
+            <div>
+                <img src="" alt="Pokedex">
+                <a href="https://poetic-buttercream-941f34.netlify.app" target="_blank">pokedex API</a>
+                <p>Entering the protecting routes world with react and Axios using a public API</p>
+            </div>
+            <div>
+                <img src="" alt="RickandMorty">
+                <a href="https://thriving-kleicha-4becde.netlify.app" target="_blank">Rick and Morty API</a>
+                <p>Implementing search bar with React.js and Axios using a public API</p>
+            </div>
+            <div>
+                <img src="" alt="TecStore">
+                <a href="https://lambent-kitsune-ccae8f.netlify.app" target="_blank">Technology Store</a>
+                <p>Using a local API from Academlo with React.js</p>
+            </div>
+            <div>
+                <img src="" alt="WeatherApp">
+                <a href="https://jovial-speculoos-c81538.netlify.app/" target="_blank">Weather App</a>
+                <p>Introducing React and consuming API's</p>
+            </div>
+            <div>
+                <img src="" alt="BeautyStore">
+                <a href="https://gilded-lokum-ac6a12.netlify.app" target="_blank">Beauty Store</a>
+                <p>Use of JavaScript vanilla</p>
+            </div>
+        </section>
+    </main>
+    <!-- FOOTER-- CONTACT ME -->
+    <footer class="contact" id="contact">
+        <div>
+            <h2>Contact Me</h2>
+        </div>
+        <form id="contact-form">
+            <input type="hidden" name="contact_number">
+            <label>Name</label>
+            <input type="text" name="user_name" required>
+            <label>Subject</label>
+            <input type="text" name="subject" required>
+            <label>Email</label>
+            <input type="email" name="user_email" required>
+            <label>Message</label>
+            <textarea name="message" placeholder="Leave your message"></textarea>
+            <input type="submit" value="Send">
+        </form>
+        <div class="">
+            <div class="footer-block">
+                <h3 class="footer-title">Social</h3>
+                <ul class="footer-social">
+                    <li>
+                        <a href="https://github.com/Stefa093" target="_blank" class="">
+                            <i class='bx bxl-github'></i>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="https://www.linkedin.com/in/estefania-salazar093/" target="_blank" class="">
+                            <i class='bx bxl-linkedin'></i>
+                        </a>
+                    </li>
+                    <li>
+                        <i class='bx bxl-whatsapp' > +57 321 826 7900</i>
+                    </li>
+                </ul>
+            </div>
+        </div>
+        <span class="">© Estefania Salazar Sepulveda Developer. All rigths reserved</span>
+    </footer>
+    <!-- JAVASCRIPT -->
+    <script src="./main.js"></script>
+    <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/@emailjs/browser@3/dist/email.min.js"></script>
+    <script type="text/javascript">
+        (function() {
+            // https://dashboard.emailjs.com/admin/account
+            emailjs.init('Kg3ioJRr1laUP39uL');
+        })();
+    </script>
+    <script type="text/javascript">
+        window.onload = function() {
+            document.getElementById('contact-form').addEventListener('submit', function(event) {
+                event.preventDefault();
+                // generate a five digit number for the contact_number variable
+                this.contact_number.value = Math.random() * 100000 | 0;
+                // these IDs from the previous steps
+                emailjs.sendForm('service_g2m926l', 'template_8grltln', this)
+                    .then(function() {
+                        console.log('SUCCESS!');
+                    }, function(error) {
+                        console.log('FAILED...', error);
+                    });
+                    event.target.reset()
+            });
+        }
+    </script>
+</body>
+</html>
